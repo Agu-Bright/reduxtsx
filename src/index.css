@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+}
+
+.mw {
+  @apply max-w-7xl mx-auto;
+}
+
+.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+  background-color: green;
+}

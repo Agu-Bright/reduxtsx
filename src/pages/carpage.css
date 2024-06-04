@@ -1,0 +1,28 @@
+
+
+
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  color: green;
+  background-color: white;
+  font-size: 30px !important;
+  padding: 5px 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #bbb2b2;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  color: green;
+  background-color: white;
+  font-size: 30px !important;
+  padding: 5px 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #bbb2b2;
+}
+.prod_des {
+  font-size: 20px;
+  font-weight: 600;
+}
